@@ -3,7 +3,7 @@ title: Investigating the brain neural mechanism when signature objects were mask
   during a scene categorization task using functional MRI
 date: '2018-01-01'
 draft: true
-publishDate: '2024-12-07T21:27:03.655272Z'
+publishDate: '2018-06-30'
 authors:
 - admin
 - Gaoyan Zhang

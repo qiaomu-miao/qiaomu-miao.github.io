@@ -3,7 +3,7 @@ title: Investigating the impact of the missing significant objects in scene reco
   using multivariate pattern analysis
 date: '2020-01-01'
 draft: true
-publishDate: '2024-12-07T21:27:03.361939Z'
+publishDate: '2020-01-01'
 authors:
 - Jin Gu
 - Baolin Liu

@@ -1,8 +1,8 @@
 ---
 title: Diffusion-Refined VQA Annotations for Semi-Supervised Gaze Following
-date: '2024-01-01'
+date: '2024-10-01'
 draft: true
-publishDate: '2024-12-07T21:27:02.762457Z'
+publishDate: '2024-10-01'
 authors:
 - admin
 - Alexandros Graikos
