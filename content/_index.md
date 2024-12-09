@@ -45,7 +45,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-
   
   - block: collection
     id: projects
