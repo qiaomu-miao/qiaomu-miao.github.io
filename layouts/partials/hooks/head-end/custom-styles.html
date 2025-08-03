@@ -1,0 +1,28 @@
+<style>
+/* Remove hyperlink styling from publication titles only (identified by underline class) */
+.pub-list-item a.underline {
+  color: inherit !important;
+  text-decoration: none !important;
+  pointer-events: none !important;
+  cursor: default !important;
+  font-weight: bold !important;
+}
+
+.pub-list-item a.underline:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Ensure attachment buttons remain functional and properly styled */
+.pub-list-item .hb-attachment-link {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  color: #059669 !important; /* Green color for links */
+  text-decoration: none !important;
+}
+
+.pub-list-item .hb-attachment-link:hover {
+  color: #047857 !important; /* Darker green on hover */
+  text-decoration: none !important;
+}
+</style>

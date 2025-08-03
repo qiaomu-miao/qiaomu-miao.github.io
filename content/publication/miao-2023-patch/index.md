@@ -1,7 +1,7 @@
 ---
 title: Patch-level gaze distribution prediction for gaze following
 date: '2023-01-03'
-draft: true
+draft: false
 publishDate: '2023-01-03'
 authors:
 - admin

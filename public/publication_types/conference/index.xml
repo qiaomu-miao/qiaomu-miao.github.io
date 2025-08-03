@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference | Qiaomu Miao</title>
-    <link>http://localhost:1313/publication_types/conference/</link>
-      <atom:link href="http://localhost:1313/publication_types/conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://qiaomu-miao.github.io/publication_types/conference/</link>
+      <atom:link href="https://qiaomu-miao.github.io/publication_types/conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu17237607633607688519.png</url>
+      <url>https://qiaomu-miao.github.io/media/icon_hu17237607633607688519.png</url>
       <title>Conference</title>
-      <link>http://localhost:1313/publication_types/conference/</link>
+      <link>https://qiaomu-miao.github.io/publication_types/conference/</link>
     </image>
     
     <item>
       <title>Diffusion-Refined VQA Annotations for Semi-Supervised Gaze Following</title>
-      <link>http://localhost:1313/publication/miao-2024-diffusion/</link>
+      <link>https://qiaomu-miao.github.io/publication/miao-2024-diffusion/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/miao-2024-diffusion/</guid>
+      <guid>https://qiaomu-miao.github.io/publication/miao-2024-diffusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Patch-level gaze distribution prediction for gaze following</title>
-      <link>http://localhost:1313/publication/miao-2023-patch/</link>
+      <link>https://qiaomu-miao.github.io/publication/miao-2023-patch/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/miao-2023-patch/</guid>
+      <guid>https://qiaomu-miao.github.io/publication/miao-2023-patch/</guid>
       <description></description>
     </item>
     

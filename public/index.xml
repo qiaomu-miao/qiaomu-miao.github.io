@@ -262,7 +262,7 @@
 
 
 
-&lt;div id=&#34;chart-567482319&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-157938426&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -280,7 +280,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-567482319&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-157938426&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -920,6 +920,14 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/publication/miao-2023-patch/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/miao-2023-patch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study of detecting behavioral signatures within DeepFake videos</title>
+      <link>http://localhost:1313/publication/miao-2022-detect/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/miao-2022-detect/</guid>
       <description></description>
     </item>
     

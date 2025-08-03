@@ -1,0 +1,55 @@
+{{ $item := . }}
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{/* Convert title to bare text. */}}
+  {{ $title := $item.Title | plainify }}
+
+  <span class="article-metadata li-cite-author">
+    {{ with $item.Params.authors }}
+    {{ $authorList := . }}
+    {{ range $index, $author := $authorList }}
+      {{ if eq $index 0 }}
+        <span class="font-bold">{{ $author }}</span>
+      {{ else }}
+        <span>{{ $author }}</span>
+      {{ end }}
+      {{ if ne $index (sub (len $authorList) 1) }}, {{ end }}
+    {{ end }}
+    {{ end }}
+  </span>
+  {{ if $item.Date }}
+  ({{ $item.Date.Format "2006" }}).
+  {{ end }}
+  <strong>{{ $title }}</strong>.
+  {{ if $item.Params.publication }}
+  <em>{{ $item.Params.publication | markdownify | emojify }}</em>.
+  {{ else if $item.Params.publication_short }}
+  <em>{{ $item.Params.publication_short | markdownify | emojify }}</em>.
+  {{ end }}
+
+  {{ if $item.Params.links }}
+  <div class="flex flex-wrap space-x-3">
+    {{ range $item.Params.links }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+    {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .url }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+    {{ $link = $link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+    {{ $target = `target="_blank" rel="noopener"` }}
+    {{ end }}
+    <a class="hb-attachment-link hb-attachment-small" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+      {{ if .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}
+        {{if .name}}mr-1{{end}}"></i>{{end}}
+      {{- .name -}}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

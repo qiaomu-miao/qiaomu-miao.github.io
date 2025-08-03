@@ -1,0 +1,17 @@
+/* Remove hyperlink styling from publication titles */
+.pub-list-item a[href*="/publication/"] {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.pub-list-item a[href*="/publication/"]:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Ensure publication titles are bold */
+.pub-list-item a[href*="/publication/"] {
+  font-weight: bold;
+}

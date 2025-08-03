@@ -2,7 +2,7 @@
 title: Investigating the impact of the missing significant objects in scene recognition
   using multivariate pattern analysis
 date: '2020-01-01'
-draft: true
+draft: false
 publishDate: '2020-01-01'
 authors:
 - Jin Gu

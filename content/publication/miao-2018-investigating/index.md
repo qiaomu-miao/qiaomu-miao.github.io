@@ -2,7 +2,7 @@
 title: Investigating the brain neural mechanism when signature objects were masked
   during a scene categorization task using functional MRI
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2018-06-30'
 authors:
 - admin
