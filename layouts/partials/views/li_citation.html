@@ -17,16 +17,13 @@
       {{ if ne $index (sub (len $authorList) 1) }}, {{ end }}
     {{ end }}
     {{ end }}
-  </span>
-  {{ if $item.Date }}
-  ({{ $item.Date.Format "2006" }}).
-  {{ end }}
+  </span>.
   <strong>{{ $title }}</strong>.
   {{ if $item.Params.publication }}
-  <em>{{ $item.Params.publication | markdownify | emojify }}</em>.
+  <em>{{ $item.Params.publication | markdownify | emojify }}</em>
   {{ else if $item.Params.publication_short }}
-  <em>{{ $item.Params.publication_short | markdownify | emojify }}</em>.
-  {{ end }}
+  <em>{{ $item.Params.publication_short | markdownify | emojify }}</em>
+  {{ end }}{{ if $item.Date }}, {{ $item.Date.Format "2006" }}{{ end }}.
 
   {{ if $item.Params.links }}
   <div class="flex flex-wrap space-x-3">

@@ -654,7 +654,51 @@
   color: #047857 !important;  
   text-decoration: none !important;
 }
+
+ 
+.pub-list-item .li-cite-author::after {
+  content: ".";
+}
+
+ 
+.pub-list-item {
+  position: relative;
+}
+
+ 
+.pub-list-item .li-cite-author + *:first-line {
+   
+}
 </style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  const publications = document.querySelectorAll('.pub-list-item');
+  
+  publications.forEach(function(pub) {
+    const content = pub.innerHTML;
+    
+    
+    const yearMatch = content.match(/\((\d{4})\)\./);
+    if (yearMatch) {
+      const year = yearMatch[1];
+      let newContent = content;
+      
+      
+      newContent = newContent.replace(/\((\d{4})\)\./, '');
+      
+      
+      newContent = newContent.replace(/(<\/span>\s*)(<strong>)/, '$1.$2');
+      
+      
+      newContent = newContent.replace(/(<\/em>)\./, '$1, ' + year + '.');
+      
+      pub.innerHTML = newContent;
+    }
+  });
+});
+</script>
       
     
   

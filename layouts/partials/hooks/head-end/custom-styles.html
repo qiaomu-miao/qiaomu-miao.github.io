@@ -25,4 +25,70 @@
   color: #047857 !important; /* Darker green on hover */
   text-decoration: none !important;
 }
+
+/* CSS workaround to reformat citation style */
+.pub-list-item .li-cite-author::after {
+  content: ".";
+}
+
+/* Hide the year in parentheses and move it to the end */
+.pub-list-item {
+  position: relative;
+}
+
+/* Try to hide years in parentheses format - this is a bit hacky but might work */
+.pub-list-item .li-cite-author + *:first-line {
+  /* This won't work perfectly, but let's see */
+}
 </style>
+
+<script>
+// JavaScript workaround to reformat citations
+document.addEventListener('DOMContentLoaded', function() {
+  const publications = document.querySelectorAll('.pub-list-item');
+  
+  publications.forEach(function(pub) {
+    const content = pub.innerHTML;
+    
+    // Look for pattern: (YYYY). and move it to end
+    const yearMatch = content.match(/\((\d{4})\)\./);
+    if (yearMatch) {
+      const year = yearMatch[1];
+      let newContent = content;
+      
+      // Remove the (YYYY). pattern
+      newContent = newContent.replace(/\((\d{4})\)\./, '');
+      
+      // Add period after authors
+      newContent = newContent.replace(/(<\/span>\s*)(<strong>)/, '$1.$2');
+      
+      // Handle different venue formats
+      if (newContent.includes('</em>')) {
+        // For venues wrapped in <em> tags (journals/conferences)
+        newContent = newContent.replace(/(<\/em>)\./, '$1, ' + year + '.');
+      } else {
+        // For plain text venues (like "Arxiv Preprint.")
+        // Find the publication venue line and add year before the final period
+        const lines = newContent.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+          // Look for a line that contains publication venue (after title, before buttons)
+          if (lines[i].trim() && 
+              !lines[i].includes('<span') && 
+              !lines[i].includes('<strong') && 
+              !lines[i].includes('<a') && 
+              !lines[i].includes('<div') && 
+              !lines[i].includes('<em') &&
+              lines[i].includes('.') &&
+              !lines[i].includes('pub-list-item')) {
+            lines[i] = lines[i].replace(/\.$/, ', ' + year + '.');
+            break;
+          }
+        }
+        newContent = lines.join('\n');
+      }
+      
+      pub.innerHTML = newContent;
+    }
+  });
+});
+</script>
