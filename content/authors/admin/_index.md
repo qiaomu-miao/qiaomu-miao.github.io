@@ -102,5 +102,5 @@ awards:
 
 # About Me
 
-Hi! I am Qiaomu Miao, a Ph.D. candidate in the Department of Computer Science at Stony Brook University, advised by Prof. [Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/) and Prof. [Minh Hoai](https://www3.cs.stonybrook.edu/~minhhoai/). My research interest is Computer Vision and Deep Learning, specifically in gaze estimation and human pose estimation. I also have experience in multi-view analyses, diffusion models, and semi-supervised learning. I obtained my Bachelor and Master's degrees in Computer Science at Tianjin University. During my Master's study, I investigated the cognitive neural mechanisms of human vision.<br><br>
+Hi! I am Qiaomu Miao, a Ph.D. candidate in the Department of Computer Science at Stony Brook University, advised by Prof. [Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/) and Prof. [Minh Hoai](https://www3.cs.stonybrook.edu/~minhhoai/). My research interest is Computer Vision and Deep Learning, specifically in human gaze estimation and pose estimation. I also have experience in multi-view analyses, diffusion models, and vision-language models. I obtained my Bachelor and Master's degrees in Computer Science at Tianjin University. During my Master's study, I investigated the cognitive neural mechanisms of human vision.<br><br>
 Contact: qiamiao AT cs.stonybrook.edu
