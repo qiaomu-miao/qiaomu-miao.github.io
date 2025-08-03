@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal | Qiaomu Miao</title>
+    <link>http://localhost:1313/publication_types/journal/</link>
+      <atom:link href="http://localhost:1313/publication_types/journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu17237607633607688519.png</url>
+      <title>Journal</title>
+      <link>http://localhost:1313/publication_types/journal/</link>
+    </image>
+    
+    <item>
+      <title>Investigating the impact of the missing significant objects in scene recognition using multivariate pattern analysis</title>
+      <link>http://localhost:1313/publication/gu-2020-investigating/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gu-2020-investigating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the brain neural mechanism when signature objects were masked during a scene categorization task using functional MRI</title>
+      <link>http://localhost:1313/publication/miao-2018-investigating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/miao-2018-investigating/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
