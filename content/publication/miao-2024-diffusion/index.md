@@ -22,5 +22,5 @@ image:
   focal_point: "Left"
   preview_only: false
   filename: GCDR.png
-publication: '*European Conference on Computer Vision (ECCV)*'
+publication: 'European Conference on Computer Vision (ECCV), 2024'
 ---

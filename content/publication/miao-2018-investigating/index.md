@@ -28,6 +28,6 @@ featured: false
 url_pdf: ''
 image:
   placement: 3
-publication: '*Neuroscience*'
+publication: 'Neuroscience, 2018'
 ---
 

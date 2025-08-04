@@ -18,7 +18,6 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
-  Vision (WACV)*'
+publication: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023"
 ---
 

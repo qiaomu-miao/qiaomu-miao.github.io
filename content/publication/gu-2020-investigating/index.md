@@ -33,6 +33,6 @@ featured: false
 url_pdf: ''
 image:
   placement: 3
-publication: '*Frontiers in Neurorobotics*'
+publication: 'Frontiers in Neurorobotics, 2020'
 ---
 

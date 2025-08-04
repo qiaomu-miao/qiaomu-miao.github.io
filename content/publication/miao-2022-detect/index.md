@@ -19,5 +19,5 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-publication: 'Arxiv Preprint'
+publication: 'Arxiv Preprint, 2022'
 ---
