@@ -4,6 +4,7 @@ title: Investigating the impact of the missing significant objects in scene reco
 date: '2020-01-01'
 draft: false
 publishDate: '2020-01-01'
+weight: 7
 authors:
 - Jin Gu
 - Baolin Liu
@@ -33,6 +34,6 @@ featured: false
 url_pdf: ''
 image:
   placement: 3
-publication: 'Frontiers in Neurorobotics, 2020'
+publication: '*Frontiers in Neurorobotics*, 2020'
 ---
 

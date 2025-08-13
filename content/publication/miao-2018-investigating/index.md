@@ -4,6 +4,7 @@ title: Investigating the brain neural mechanism when signature objects were mask
 date: '2018-01-01'
 draft: false
 publishDate: '2018-06-30'
+weight: 5
 authors:
 - admin
 - Gaoyan Zhang
@@ -28,6 +29,6 @@ featured: false
 url_pdf: ''
 image:
   placement: 3
-publication: 'Neuroscience, 2018'
+publication: '*Neuroscience*, 2018'
 ---
 

@@ -3,6 +3,7 @@ title: Study of detecting behavioral signatures within DeepFake videos
 date: '2022-08-06'
 draft: false
 publishDate: '2022-08-06'
+weight: 4
 authors:
 - admin
 - Sinhwa Kang
@@ -19,5 +20,5 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-publication: 'Arxiv Preprint, 2022'
+publication: '*Arxiv Preprint*, 2022'
 ---

@@ -3,6 +3,7 @@ title: Patch-level gaze distribution prediction for gaze following
 date: '2023-01-03'
 draft: false
 publishDate: '2023-01-03'
+weight: 3
 authors:
 - admin
 - Minh Hoai
@@ -18,6 +19,7 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-publication: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023"
+publication: "*IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2023"
+
 ---
 

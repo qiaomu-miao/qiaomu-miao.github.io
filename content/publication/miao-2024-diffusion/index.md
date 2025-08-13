@@ -3,6 +3,7 @@ title: Diffusion-Refined VQA Annotations for Semi-Supervised Gaze Following
 date: '2024-10-01'
 draft: false
 publishDate: '2024-10-01'
+weight: 2
 authors:
 - admin
 - Alexandros Graikos
@@ -22,5 +23,5 @@ image:
   focal_point: "Left"
   preview_only: false
   filename: GCDR.png
-publication: 'European Conference on Computer Vision (ECCV), 2024'
+publication: '*European Conference on Computer Vision (ECCV)*, 2024'
 ---
