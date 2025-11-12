@@ -13,7 +13,7 @@ authors:
 - Dimitris Samaras
 url_pdf: https://arxiv.org/pdf/2508.05857
 links:
-- name: "Dataset"
+- name: "Webpage"
   url: "https://www3.cs.stonybrook.edu/~cvl/multiview_gte.html"
   icon: "globe"
   icon_pack: "fas"

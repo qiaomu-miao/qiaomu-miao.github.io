@@ -67,6 +67,14 @@ profiles:
     ##  GPA: 3.4/4.0
       
 work:
+  - position: Student Researcher
+    company_name: Google
+    company_url: https://about.google/
+    company_logo: 'Google_logo.png'
+    date_start: 2025-09-15
+    date_end: 2025-11-12
+    summary: |
+      - Developing eye segmentation and eye-tracking pipelines with large foundation models.
   - position: Technology Investigation Intern
     company_name: Apple
     company_url: https://www.apple.com
