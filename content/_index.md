@@ -70,7 +70,24 @@ sections:
         <br>
         <font size="4"> 
         <div style="display: flex; justify-content: space-between; margin: 0; padding: 0;">
-        <span><strong>Student Researcher</strong></span>  <span><span style="color:gray">Sep 2025 - Present</span></span></div>
+        <span><strong>Research Scientist</strong></span>  <span><span style="color:gray">Jul 2026 - Present</span></span></div>
+        </font>
+        <font size="3">
+        <div style="display: flex; align-items: center; margin: 0; padding: 0;">
+          <img src="experience/Meta_logo.svg" width="30" height="30" style="margin-right: 20px;">
+          <p style="margin: 0;">Meta</p>
+        </div>
+        
+          <div style="margin: 0; padding: 0;">
+          <ul style="margin: 0;">
+          <li> Working on content representation learning with multimodal input for large-scale autoregressive recommendation systems on Facebook Feed/Reels. </li>
+          </ul>
+          </div>
+        </font>
+        <br><br>
+        <font size="4"> 
+        <div style="display: flex; justify-content: space-between; margin: 0; padding: 0;">
+        <span><strong>Student Researcher</strong></span>  <span><span style="color:gray">Sep 2025 - Apr 2026</span></span></div>
         </font>
         <font size="3">
         <div style="display: flex; align-items: center; margin: 0; padding: 0;">
@@ -80,7 +97,7 @@ sections:
         
           <div style="margin: 0; padding: 0;">
           <ul style="margin: 0;">
-          <li> Developing eye segmentation and eye-tracking pipelines with large foundation models. </li>
+          <li> Developed eye segmentation and eye-tracking pipelines with large foundation models. </li>
           </ul>
           </div>
         </font>

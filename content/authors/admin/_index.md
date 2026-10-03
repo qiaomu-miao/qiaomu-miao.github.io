@@ -67,14 +67,22 @@ profiles:
     ##  GPA: 3.4/4.0
       
 work:
+  - position: Research Scientist
+    company_name: Meta
+    company_url: https://www.meta.com/
+    company_logo: 'Meta_logo.svg'
+    date_start: 2026-07-01
+    date_end: ''
+    summary: |
+      - Working on content representation learning with multimodal input for large-scale autoregressive recommendation systems on Facebook Feed/Reels.
   - position: Student Researcher
     company_name: Google
     company_url: https://about.google/
     company_logo: 'Google_logo.png'
     date_start: 2025-09-15
-    date_end: 2025-11-12
+    date_end: 2026-04-30
     summary: |
-      - Developing eye segmentation and eye-tracking pipelines with large foundation models.
+      - Developed eye segmentation and eye-tracking pipelines with large foundation models.
   - position: Technology Investigation Intern
     company_name: Apple
     company_url: https://www.apple.com
@@ -110,5 +118,5 @@ awards:
 
 # About Me
 
-Hi! I am Qiaomu Miao, a Ph.D. candidate in the Department of Computer Science at Stony Brook University, advised by Prof. [Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/) and Prof. [Minh Hoai](https://www3.cs.stonybrook.edu/~minhhoai/). My research interest is Computer Vision and Deep Learning, specifically in human gaze estimation and pose estimation. I also have experience in multi-view analyses, diffusion models, and vision-language models. I obtained my Bachelor and Master's degrees in Computer Science at Tianjin University. During my Master's study, I investigated the cognitive neural mechanisms of human vision.<br><br>
+Hi! I am Qiaomu Miao. I received my Ph.D. in Computer Science from Stony Brook University, advised by Prof. [Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/) and Prof. [Minh Hoai Nguyen](https://www3.cs.stonybrook.edu/~minhhoai/). My research expertise spans computer vision, vision-language models, multi-view geometry, generative AI, and human behavior analysis. Before that, I obtained my Bachelor's and Master's degrees in Computer Science at Tianjin University. During my Master's study, I investigated the cognitive neural mechanisms of human vision.<br><br>
 Contact: qiamiao AT cs.stonybrook.edu
