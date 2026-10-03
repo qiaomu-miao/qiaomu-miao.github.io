@@ -43,6 +43,7 @@ sections:
         folders:
           - publication
         exclude_featured: false
+      count: 8
       sort_by: 'weight'
       sort_ascending: true
     design:

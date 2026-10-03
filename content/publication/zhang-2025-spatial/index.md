@@ -3,7 +3,7 @@ title: Spatial frequency preferences of representations of indoor and natural sc
 date: '2025-02-06'
 draft: false
 publishDate: '2025-02-06'
-weight: 6
+weight: 9
 authors:
 - Yuanyuan Zhang
 - admin

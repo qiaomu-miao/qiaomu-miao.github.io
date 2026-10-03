@@ -3,7 +3,7 @@ title: Multi-view Gaze Target Estimation
 date: '2025-08-07'
 draft: false
 publishDate: '2025-08-07'
-weight: 1
+weight: 4
 authors:
 - admin
 - Vivek Raju Golani
